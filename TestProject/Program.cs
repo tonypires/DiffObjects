@@ -6,6 +6,7 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using TestProject.SimpleHelpers;
 
 namespace TestProject
 {
@@ -27,6 +28,11 @@ namespace TestProject
                 Email = "ampires9@gmail.com"
             };
 
+            //var diff = ObjectDiffPatch.GenerateDiff(beforeObj, afterObj);
+            //Console.WriteLine(diff);
+
+            //return;
+
             Console.WriteLine(beforeObj.ToString());
             Console.WriteLine(afterObj.ToString());
 
@@ -37,6 +43,7 @@ namespace TestProject
 
             Console.ReadKey();
         }
+
 
         private static void Perform<T>(T before, T after)
         {
