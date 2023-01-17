@@ -18,14 +18,14 @@ namespace TestProject
             {
                 Id = 1,
                 Name = "Tony Pires",
-                Email = "ampires9@gmail.com"
+                Email = "hello@hello.com"
             };
 
             var afterObj = new MyClass
             {
                 Id = 1,
                 Name = "Tony",
-                Email = "ampires9@gmail.com"
+                Email = "hello@hello.com"
             };
 
             //var diff = ObjectDiffPatch.GenerateDiff(beforeObj, afterObj);
